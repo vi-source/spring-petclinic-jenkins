@@ -10,7 +10,7 @@ pipeline {
         stage('git') {
             steps {
                 git url: 'https://github.com/vi-source/spring-petclinic-jenkins.git', 
-                    branch: 'dev'
+                    branch: 'dev' 
             }
         }
         stage('build') {
